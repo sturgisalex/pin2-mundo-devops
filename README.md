@@ -1,1 +1,2 @@
-# pin2-mundo-devops
+# lista del paso a paso
+
