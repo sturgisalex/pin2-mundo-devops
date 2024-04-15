@@ -1,4 +1,4 @@
-#data "aws_ami" "ubuntu" {
+data "aws_ami" "ubuntu" {
   most_recent = true
   filter {
     name = "name"
@@ -37,4 +37,5 @@ resource "aws_security_group" "mse_vpc" {
   
 }
 
-# user_data = ec2.user_data cambios locos 
+# user_data = ec2.user_data 
+#cambios locos 
